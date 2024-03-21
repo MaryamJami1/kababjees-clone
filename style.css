@@ -1,0 +1,255 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+   
+}
+
+.head {
+    height: 45px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px dashed #ffffff92;
+    display: flex;
+
+}
+
+
+.contact {
+    width: 100%;
+    padding: 10px;
+}
+
+.contact a {
+    color: #fff;
+    margin: 10px 20px 0px 30px;
+    font-size: 14px;
+}
+
+.contact :hover {
+    color: goldenrod;
+}
+
+
+.social {
+    width: 80%;
+    padding: 10px;
+    padding-left: 650px;
+
+}
+
+.social i {
+    border: 2px solid #fff;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 10px;
+    height: 28px;
+    width: 28px;
+
+}
+
+
+.social :hover {
+    color: goldenrod;
+}
+
+.social a {
+    color: #fff;
+
+}
+
+.main_header {
+    height: 700px;
+    width: 100%;
+
+}
+
+.video {
+    width: 100%;
+    display: flex;
+}
+
+.video video{
+    opacity: .9;
+}
+
+.navbar {
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+
+}
+
+.anchor {
+
+    width: 25%;
+    margin-top: 40px;
+    margin-left: 90px;
+
+}
+
+.anchor a {
+    color: #fff;
+    font-size: 20px;
+    margin: 8px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    border-top: 1px dashed #ffffff92;
+    border-bottom: 1px dashed #ffffff92;
+}
+
+
+.anchor :hover {
+    color: goldenrod;
+}
+
+.logo {
+
+    width: 15%;
+    margin-top: 30px;
+   
+ 
+}
+
+.logo img {
+    height: 50px;
+    width: 300px;
+    padding-left: 50px;
+}
+
+
+.anchor2 {
+    width: 40%;
+    margin-top: 40px;
+    margin-left: 160px;
+
+
+}
+.anchor2 a {
+    color: #fff;
+    margin: 8px;
+    font-size: 20px;
+    padding: 10px 10px 10px 0px;
+    text-decoration: none;
+    border-top: 1px dashed #ffffff92;
+    border-bottom: 1px dashed #ffffff92;
+}
+
+
+.anchor2 :hover {
+    color: goldenrod;
+}
+
+
+.para_head {
+    height: 200px;
+    width: 70%;
+    position: absolute;
+    display: flex;
+    margin: 230px 0px 0px 330px;
+    font-size: 45px;
+    color: #ffffffe4;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.1;
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 50px;
+   
+    
+
+
+}
+
+.about_section{
+    height: 650px;
+    width: 100%;
+   background-color: rgba(0, 0, 0, 0.901);
+    display: flex;
+    margin-top: 7px;
+}
+
+.about_para{
+    height: 400px;
+    width: 50%;
+    margin: 80px 0px 0px 90px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+
+
+}
+
+.about_para p{
+    color: #ffffffbb;
+ 
+}
+
+.about_img{
+    height: 300px;
+    width: 50%;
+   padding: 80px 60px 60px 30px;
+}
+
+.background_carousel{
+   background-image: url(./assests/back1.jpg) !important;
+   background-size: cover;
+   background-position: top;
+
+}
+
+.phone_div{
+    height: 200px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.901);
+    text-align: center;
+
+}
+
+.contact_info h5{
+padding-top: 20px;
+color: rgba(145, 142, 142, 0.914);
+}
+
+.contact_info a{
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 40px;
+  
+}
+
+.contact_info a:hover{
+text-decoration: underline goldenrod;
+}
+
+.contact_info button{
+    margin: 15px;
+    background-color: goldenrod;
+    height: 45px;
+    width: 140px;
+    font-size: 20px;
+    border: none;
+    color: rgba(0, 0, 0, 0.849);
+}
+
+.contact_info button:hover{
+    background-color: rgba(233, 187, 70, 0.962);
+}
+
+.background_carousel2{
+    background-image: url(./assests/16.jpg) !important;
+}
+
+.background_carousel3{
+    background-color: rgba(0, 0, 0, 0.901);
+}
