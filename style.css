@@ -253,3 +253,15 @@ text-decoration: underline goldenrod;
 .background_carousel3{
     background-color: rgba(0, 0, 0, 0.901);
 }
+
+.background_carousel4{
+  background-image: url(./assests/back3.jpg);
+  background-position: center;
+  background-size: cover;
+
+ 
+}
+
+.location{
+    
+}
